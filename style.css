@@ -468,3 +468,33 @@ body {
   }
 }
 /* # Mesmerizing by xposedbones */
+
+@media (prefers-reduced-motion) {
+  :root {
+    --anispeed: 35s;
+  }
+
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #fdfdfd; 
+  
+  }
+
+  .holder .circle {
+    background: #e7e6e6; 
+    border-color: #bdbcbc; 
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212; 
+  }
+
+  .holder .circle {
+    background: #353535; 
+    border-color: #575757; 
+  }
+}
